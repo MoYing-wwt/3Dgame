@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#3319ecd3">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="30sp"
+    android:text="3DM论坛启动于2003年，目前是国内最大、活跃程度最高的单机游戏论坛，拥有400万注册会员，日均发帖量6万，最高可达到12万；平均每个用户在3DM论坛停留30分钟以上与其他玩家交流，论坛已经是3DM最具人气的交互平台。"
+   />
+</LinearLayout>

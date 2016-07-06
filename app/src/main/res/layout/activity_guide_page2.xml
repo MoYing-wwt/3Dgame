@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#3319ecd3">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="30sp"
+    android:text="3DM汉化补丁为3DM的核心竞争力之一，从第一款《幻想杀手》的汉化至今已有近300款游戏被3DM汉化成简体及繁体中文版本，总下载量达到数十亿次，目前3DM仍在不断完善汉化制作技术和发布平台，已经有多家国外游戏厂商主动联系洽谈汉化授权以及合作推广事宜。"
+   />
+</LinearLayout>

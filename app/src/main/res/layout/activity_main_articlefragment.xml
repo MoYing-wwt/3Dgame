@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp">
+        <com.moying.a3dgamedemo.customview.MainArticleFragmentViewPager
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/main_articlefragment_viewpager"></com.moying.a3dgamedemo.customview.MainArticleFragmentViewPager>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="bottom"
+    android:gravity="bottom|center_horizontal"
+   >
+    <View
+        android:id="@+id/activity_main_articlefragment_v1"
+        android:layout_width="5dp"
+        android:layout_height="5dp"
+        android:background="@drawable/point_shap"
+        android:layout_marginRight="30dp"/>
+    <View
+        android:id="@+id/activity_main_articlefragment_v2"
+        android:layout_width="5dp"
+        android:layout_height="5dp"
+        android:background="@drawable/point_shap"
+        />
+    <View
+        android:id="@+id/activity_main_articlefragment_v3"
+        android:layout_width="5dp"
+        android:layout_height="5dp"
+        android:background="@drawable/point_shap"
+        android:layout_marginLeft="30dp"/>
+</LinearLayout>
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/activity_main_articlefragment_tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="test"/>
+
+</LinearLayout>
